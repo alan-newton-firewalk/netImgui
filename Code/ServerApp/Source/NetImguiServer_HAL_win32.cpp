@@ -170,7 +170,8 @@ void HAL_ConvertKeyDown(const bool ImguiKeysDown[512], uint64_t outKeysDownMask[
 //=================================================================================================
 void HAL_ShellCommand(const char* aCommandline)
 {
-	ShellExecuteA(0, 0, aCommandline, 0, 0 , SW_SHOW );
+	// No thanks
+	// ShellExecuteA(0, 0, aCommandline, 0, 0 , SW_SHOW );
 }
 
 //=================================================================================================
